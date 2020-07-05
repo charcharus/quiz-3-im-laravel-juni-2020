@@ -8,8 +8,8 @@
 <h1>Put on Your Article</h1>
 
 <form action="/artikel">
-    <button type="submit">Back to Article List</button>
-</form>
+    <button type="submit"class="btn btn-primary">Back to Article List</button>
+</form><br>
 
 <form action='/artikel/{{$artikel->id}}/update' method="post">
 {{ csrf_field() }}

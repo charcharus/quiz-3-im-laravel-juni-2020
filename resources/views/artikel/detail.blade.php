@@ -5,6 +5,10 @@
 <div class="main">
 		<div class="main-content">
 			<div class="container-fluid">
+
+            <form action="/artikel">
+                <button type="submit"class="btn btn-primary">Back to Article List</button>
+            </form><br>
                 
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
